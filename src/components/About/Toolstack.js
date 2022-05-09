@@ -4,9 +4,14 @@ import {
   SiLinux,
   SiVisualstudiocode,
   SiPostman,
-  SiHeroku,
+  SiVim,
   SiVercel,
 } from "react-icons/si";
+
+import {
+  RiWechatPayFill,
+} from "react-icons/ri";
+
 
 function Toolstack() {
   return (
@@ -21,10 +26,10 @@ function Toolstack() {
         <SiPostman />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <RiWechatPayFill />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiVim />
       </Col>
     </Row>
   );
